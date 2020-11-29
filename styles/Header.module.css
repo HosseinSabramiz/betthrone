@@ -1,0 +1,62 @@
+#bgheader{
+    width: 100vw;
+    height: 100vh;
+    float: left;
+    position: relative;
+    background-image: url("../image/MaskGroup1.png");
+    background-color: transparent;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.headerul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerul li{
+    color: #fff;
+    transition: all .2s ease-in-out;
+    border-color: #4C00BE;
+    position: relative;
+    align-items: center;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.headerul li.headerli >div> a{
+    color: #fff;
+    font-family: 'Montserrat-Medium';
+    text-decoration: none;
+}
+
+.headerlogo img{
+    width: 12vw;
+    margin-top: -1vw;
+}
+
+.headerul li::after{
+    background-color: #fff;
+}
+/* hr.hrheader{
+    border-bottom: 4px solid #4C00BE;
+} */
+
+.headerul li.headerli:hover{
+    border-bottom: 4px solid #4C00BE;
+}
+
+.headerul li:hover ::marker{
+    background-color: #fff;
+}
+
+.bottomdice img{
+    width: 16vw;
+    position: absolute;
+    bottom: 0vw;
+    right: 4vw;
+}

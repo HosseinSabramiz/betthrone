@@ -1,0 +1,284 @@
+
+@import "font.css";
+
+
+/* TOP GAMES  */
+
+.lefttopgamesli{
+    font-family: 'Montserrat-Light';
+}
+
+.lefttopgames{
+    width: 100%;
+    height: 170px;
+    transition: all .3s ease-in-out;
+    position: relative;
+    /* margin-bottom: 10px; */
+}
+
+.lefttopgames:hover{
+    
+    margin-top: -10px;
+}
+
+.lefttopgames:hover{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.rightTopGames{
+    width: 100%;
+    height: 100%;
+}
+
+.topgamestitle{
+    font-family: 'Rajdhani-Bold';
+    border-left: 3px solid #fff;
+    border-radius: 1px;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+}
+
+.topgamestitle ::before{
+    width: 10px ;
+    height: 10px;
+    background-color: #fff;
+}
+
+.topgamesHblur{
+    width: 20px;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: -0.6rem;
+    filter: blur(13px);
+}
+
+li.headerTopGames > a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat-Light';
+    transition: all .3s ease-in-out;
+}
+
+li.activetopG > a{
+    top: -5px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+/* END TOP GAMES */
+
+/* JACKPOT */
+.jackpotheartshadow{
+    position: absolute;
+    left: 41.3%;
+}
+
+div.jackpottitle{
+    color: #fff;
+    font-family: 'Montserrat-Bold';
+    text-shadow: 0 0 30px #fff;
+    font-size: 30px;
+}
+
+li.headerjackpotli > a{
+    color: #fff;
+    font-family: 'Montserrat-Light';
+    font-size: 14px;
+    transition: all .3s ease-in-out;
+}
+
+li.activetJack > a{
+    top: -5px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+.allgamesjacjpot{
+    background-image: url("../public/image/btnAllGames.png");
+    background-size: 100%;
+    color: #fff;
+    box-shadow: 0 0 10px 0px #700ece;
+}
+
+.allgamesjacjpot:hover{
+    color: #fff;
+}
+
+.imageJclass:hover .hoverplaynow{
+    opacity: 1;
+}
+
+.hoverplaynow{
+    width: calc(100% - 30px);
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right:15px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    background-color: rgba(23, 25, 65,.7);
+}
+
+.playnowjh{
+    color: rgba(255,255,255,.8);
+    font-family: 'Montserrat-Bold';
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,.8);
+    padding: 11px 22px;
+}
+
+.playnowjh1{
+    color: rgba(255,255,255,.9);
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    padding: 11px 22px;
+}
+
+/* END JACKPOT */
+
+/* WINNERS */
+
+.Winners{
+    background-image: url("../public/image/Group33022.png");
+    min-height: 620px;
+    background-size: 100% 100%;
+}
+
+.winnerheader{
+    margin-top: 150px;
+}
+
+.winheaderli>a{
+    font-family: 'Montserrat-Regular';
+    color: rgba(255, 255, 255, .7);
+}
+
+.winheaderactive > a{
+    font-size: 20px;
+    color: #fff;
+}
+
+.colorwinner{
+    color: rgba(255, 255, 255, .7);
+    font-family: 'Montserrat-Light';
+    font-size: 13.7px;
+}
+.pricewinner1{
+    color: #fff;
+    font-family: 'Montserrat-Regular';
+    font-size: 1.8em;
+}
+.pricewinner{
+    color: #fff;
+    font-family: 'Montserrat-Regular';
+    font-size: 1.4em;
+}
+
+.winnerimg{
+    border-radius: 50%;
+}
+
+.medal{
+    width: 30%;
+    position: absolute;
+    bottom: -7%;
+    right: 5%;
+}
+
+.righttopwinner{
+    width: 100%;
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 30px 10px #54079B;
+}
+
+.rightbetname{
+    width: 1px;
+    background-color:rgba(255, 255, 255, .7);
+    height: 20px;
+}
+
+/* END WINNERS */
+
+/* REGISTER IN HOME */
+
+.bgregister{
+    background-image: url("../public/image/Group33025.png");
+    min-height: 800px;
+    background-size: 100% 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.logoHregister{
+    margin-top: 150px;
+}
+
+.passorHR{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.passorHR img{
+    width: 100%;
+    height: 100%;
+}
+
+.titlehomeregister{
+    color: #fff;
+    font-size: 25px;
+    margin: 30px auto;
+}
+
+.homeinput{
+    background-color: transparent;
+    padding:30px 20px;
+}
+
+.homeinput::placeholder{
+    color: #fff;
+}
+
+.homebtnregister{
+    background-color: #8300FF;
+    box-shadow: 0 0 30px 1px #8300FF;
+    color: #fff;
+    margin:auto;
+}
+
+.homebtnregister:hover{
+    color: #fff;
+}
+
+.bottomHR{
+    margin: 70px auto;
+}
+
+.bottomHomeRegister{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* END REGISTER IN HOME */
+
+/* HOME COUNTDOWN */
+
+.timercountdown{
+    color: #fff;
+    text-align: center;
+    font-family: 'Rajdhani-Bold';
+    font-size: 2.6em;
+}
+
+/* END HOME COUNTDOWN */
