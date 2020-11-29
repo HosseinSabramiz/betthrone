@@ -28,7 +28,7 @@ const HomeCountdown = () => {
                 </div>
                 <div className={"col-md-6 float-left"}>
                     <div className={"w-100 float-left text-center"}>
-                        <img src="/image/club.png" />
+                        <img src="/image/poker.png" />
                     </div>
                     <div className={"w-100 float-left timercountdown"}>
                     <Timer
