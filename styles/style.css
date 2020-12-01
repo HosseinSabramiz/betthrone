@@ -5,6 +5,13 @@
     margin-top: -.7rem;
 }
 
+/* EDIT BOOTSTRAP */
+
+
+
+
+/* END EDIT BOOTSTRAP */
+
 
 /* UNDERHEADER */
 
@@ -102,12 +109,12 @@
 }
 
 .topgamesHblur{
-    width: 20px;
+    width: 13px;
     height: 80%;
     background-color: #fff;
     position: absolute;
     top: 0;
-    left: -0.6rem;
+    left: -0.4rem;
     filter: blur(13px);
 }
 
@@ -127,6 +134,10 @@ li.activetopG > a{
 /* END TOP GAMES */
 
 /* JACKPOT */
+.mainJP{
+    margin-top: -20px;
+}
+
 .jackpotheartshadow{
     position: absolute;
     left: 41.3%;
@@ -137,6 +148,11 @@ div.jackpottitle{
     font-family: 'Montserrat-Bold';
     text-shadow: 0 0 30px #fff;
     font-size: 30px;
+    margin: 15px auto;
+}
+
+li.headerjackpotli{
+    transition: all .5s ease-in-out;
 }
 
 li.headerjackpotli > a{
@@ -144,6 +160,12 @@ li.headerjackpotli > a{
     font-family: 'Montserrat-Light';
     font-size: 14px;
     transition: all .3s ease-in-out;
+}
+
+li.headerjackpotli:hover > a{
+    top: -5px;
+    position: relative;
+    border-bottom: 1px solid #fff;
 }
 
 li.activetJack > a{
@@ -178,7 +200,7 @@ li.activetJack > a{
     right:15px;
     opacity: 0;
     transition: all .3s ease-in-out;
-    background-color: rgba(23, 25, 65,.7);
+    background-color: rgba(23, 25, 65,.9);
 }
 
 .playnowjh{
@@ -210,12 +232,13 @@ li.activetJack > a{
     margin-top: 150px;
 }
 
-.winheaderli>a{
+.winheaderli{
     font-family: 'Montserrat-Regular';
+    cursor: pointer;
     color: rgba(255, 255, 255, .7);
 }
 
-.winheaderactive > a{
+.winheaderactive{
     font-size: 20px;
     color: #fff;
 }
@@ -228,7 +251,7 @@ li.activetJack > a{
 .pricewinner1{
     color: #fff;
     font-family: 'Montserrat-Regular';
-    font-size: 1.8em;
+    font-size: 1.6em;
 }
 .pricewinner{
     color: #fff;
@@ -252,7 +275,7 @@ li.activetJack > a{
     float: right;
     border: 1px solid #fff;
     border-radius: 3px;
-    box-shadow: 0 0 30px 10px #54079B;
+    /* box-shadow: 0 0 30px 10px #54079B; */
 }
 
 .rightbetname{
@@ -267,14 +290,24 @@ li.activetJack > a{
 
 .bgregister{
     background-image: url("../public/image/Group33025.png");
-    min-height: 800px;
+    min-height: 1000px;
     background-size: 100% 100%;
     z-index: 0;
     position: relative;
 }
 
 .logoHregister{
+    display: flex;
+justify-content: center;
     margin-top: 150px;
+}
+
+.logoHregister img{
+    display: block;
+    max-width: 290px;
+    max-height: 135px;
+    width: auto;
+    height: auto;
 }
 
 .passorHR{
@@ -354,13 +387,50 @@ filter: blur(30px);
 
 
 .imagecoundown1{
-    height: 330px;
+    /* height: 330px; */
+    display: block;
+max-width: 370px;
+max-height: 330px;
+width: auto;
+height: auto;
+margin: auto;
 }
 .imagecoundown2{
-    height: 330px;
+    /* height: 330px; */
+    display: block;
+    max-width: 290px;
+    max-height: 330px;
+    width: auto;
+    height: auto;
+    margin: auto;
+
 }
 
 /* END HOME COUNTDOWN */
+
+
+/* GO TO TOP */
+
+.gotoTopmain{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11133B;
+    /* box-shadow: 0 0 30px 10px; */
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    z-index: 1;
+}
+
+/* END GO TO TOP */
+
+
 
 /* FOOTER */
 
@@ -370,6 +440,21 @@ filter: blur(30px);
     min-height: 600px;
     overflow-x: hidden;
     box-shadow: 0 -32px 30px 22px #171941,-15px -2px 30px 22px #171941 inset;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.footerLogo{
+    display: flex;
+    justify-content: center;
+}
+
+.footerLogo img{
+    display: block;
+    max-width: 290px;
+    max-height: 135px;
+    width: auto;
+    height: auto;
 }
 
 .rightfooter{

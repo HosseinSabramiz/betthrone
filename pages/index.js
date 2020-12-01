@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import HomeCountdown from '../src/component/countdownHome/HomeCountdown'
 import Footer from '../src/component/footer/Footer'
+import GotoTop from '../src/component/GotoTop/GotoTop'
 import Jackpot from '../src/component/Jackpot/Jackpot'
 import LogoRedAndBlue from '../src/component/logobetweentopgames/LogoRedAndBlue'
 import RegisterInHome from '../src/component/RegisterInHome/RegisterInHome'
@@ -9,6 +10,12 @@ import UnderHeader from '../src/component/UnderHeader/UnderHeader'
 import Winners from '../src/component/Winners/Winners'
 
 export default function Home() {
+
+
+
+
+
+
   return (
         <div>
           <Head>
@@ -22,6 +29,7 @@ export default function Home() {
           <Winners />
           <RegisterInHome />
           <HomeCountdown />
+          <GotoTop />
           <Footer />
 
       </div>
