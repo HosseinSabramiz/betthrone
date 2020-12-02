@@ -4,7 +4,7 @@ import Timer from 'react-compound-timer/build';
 
 const HomeCountdown = () => {
     return ( 
-        <div className={"w-100 float-left bg3d py-5"}>
+        <div className={"w-100 float-left  py-5 mb-5"}>
             <div className={"container"}>
                 <div className={"col-md-6 float-left"}>
                     <div className={"w-100 float-left text-center divimagecoundown1"}>

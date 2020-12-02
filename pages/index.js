@@ -25,11 +25,14 @@ export default function Home() {
           <UnderHeader />
           <TopGames />
           <LogoRedAndBlue />
+          <div className={"bg3d float-left w-100 mainJP"}>
           <Jackpot />
           <Winners />
           <RegisterInHome />
           <HomeCountdown />
           <GotoTop />
+
+          </div>
           <Footer />
 
       </div>

@@ -42,7 +42,7 @@ div.maindiv{
 .bg3d::before {    
     content: "";
     background-image: url(../public/image/Mask_Group_10.png);
-    background-size: cover;
+    /* background-size: cover; */
     position: absolute;
     top: 0px;
     right: 0px;

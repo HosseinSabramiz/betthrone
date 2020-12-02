@@ -3,7 +3,7 @@ import React from 'react';
 
 const Jackpot = () => {
     return ( 
-        <div className={"w-100 float-left bg3d pt-5 mainJP"}>
+        <div className={"w-100 float-left  pt-5 "}>
             <div className={"container"}>
                 <div className={"w-100 d-flex justify-item-cener headerJackpot"}>
                     <div className={"w-100 text-center position-relative  float-left"}>

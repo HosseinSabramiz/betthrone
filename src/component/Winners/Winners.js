@@ -6,7 +6,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 const Winners = () => {
     return ( 
 
-        <div className={"w-100 float-left bg3d pt-5 margintopminus"}>
+        <div className={"w-100 float-left  pt-5 margintopminus"}>
             <div className={"container"}>
                 <div className={"w-100 d-flex justify-item-cener Winners"}>
                     <div className={"col-lg-9 col-md-9 mx-auto"}>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const RegisterInHome = () => {
     return ( 
-        <div className={"w-100 float-left bg3d pt-5"}>
+        <div className={"w-100 float-left  pt-5"}>
             <div className={"bgregister pb-5"}>
                 <div className={"passorHR"}>
                     <img src="/image/Asset_2.png" />
