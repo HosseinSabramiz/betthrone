@@ -33,15 +33,23 @@
     margin-top: 110px;
 }
 
+.underheaderredlogo{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
 .itemUnderheader{
     position: relative;
     overflow: hidden;
 }
 
 .itemUnderheader img{
-    /* width: 20%; */
+    width: auto;
     position: relative;
     z-index: 1;
+    max-width: 100%;
 }
 
 .itemUnderheader::before{
@@ -237,6 +245,7 @@ li.activetJack > a{
     font-family: 'Montserrat-Regular';
     cursor: pointer;
     color: rgba(255, 255, 255, .7);
+    font-weight: 600;
 }
 
 .winheaderactive{

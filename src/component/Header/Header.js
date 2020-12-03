@@ -28,6 +28,12 @@ export default () =>{
                         <div  className={"containerHeader"}>
                         <ul className={style.headerul}>
 
+                            <li  className={style.resmenu}>
+                                <div>
+                                    &#9776;
+                                </div>
+                                {/* <hr className={style.hrheader} /> */}
+                            </li>
                             <li  className={style.searchheaderli}>
                                 <div>
                                     <Link href={"#"} >
@@ -73,6 +79,15 @@ export default () =>{
                                 <div>
                                     <Link href={"#"} >PAYMENT</Link>
                                 </div>
+                            </li>
+
+                            <li  className={style.ressearchheaderli}>
+                                <div>
+                                    <Link href={"#"} >
+                                        <img src="/image/search.png" />
+                                    </Link>
+                                </div>
+                                {/* <hr className={style.hrheader} /> */}
                             </li>
 
                             

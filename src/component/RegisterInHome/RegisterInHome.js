@@ -32,7 +32,7 @@ const RegisterInHome = () => {
                                     <input type="tel" className={"form-control homeinput"} id="inputPhonenumber" placeholder="phonenumber" />
                                 </div>
                             </div>
-                            <div className={"w-100 text-center"}>
+                            <div className={"w-100 text-center mt-4"}>
                                 <button className="btn homebtnregister">Sign up</button>
 
                             </div>

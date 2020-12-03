@@ -15,7 +15,7 @@ const Footer = () => {
                         </div>
                         <div className={"float-left w-100 mt-5"}>
 
-                            <div className={"col-lg-3 col-md-3 float-left"}>
+                            <div className={"col-lg-3 col-md-3 col-6 float-left"}>
                                 <ul className={"footermenu"}>
                                     <li>LINKS</li>
                                     <li><Link href="#">About Us</Link></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                             </div>
                             
 
-                            <div className={"col-lg-3 col-md-3 float-left"}>
+                            <div className={"col-lg-3 col-md-3 col-6 float-left"}>
                                 <ul className={"footermenu"}>
                                     <li>LINKS</li>
                                     <li><Link href="#">About Us</Link></li>
@@ -37,7 +37,7 @@ const Footer = () => {
                             </div>
                             
 
-                            <div className={"col-lg-3 col-md-3 float-left"}>
+                            <div className={"col-lg-3 col-md-3 col-6 float-left"}>
                                 <ul className={"footermenu"}>
                                     <li>LINKS</li>
                                     <li><Link href="#">About Us</Link></li>
@@ -48,7 +48,7 @@ const Footer = () => {
                             </div>
                             
 
-                            <div className={"col-lg-3 col-md-3 float-left"}>
+                            <div className={"col-lg-3 col-md-3 col-6 float-left"}>
                                 <ul className={"footermenu"}>
                                     <li>LINKS</li>
                                     <li><Link href="#">About Us</Link></li>

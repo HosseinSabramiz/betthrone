@@ -15,9 +15,9 @@ const Jackpot = () => {
                     </div>
                 </div>
 
-                <div className={"w-100 d-flex justify-item-cener float-left my-3"}>
+                <div className={"w-100 d-flex justify-item-cener float-left my-3 resjPheader"}>
                     <div className={"col-lg-6 mx-auto"}>
-                        <ul className={"d-flex justify-content-between topgamesul"}>
+                        <ul className={"d-flex justify-content-between topgamesul childulJP"}>
                             <li className={"headerjackpotli "}>
                                 <Link href="#">ALL</Link>
                             </li>
@@ -42,11 +42,63 @@ const Jackpot = () => {
                 </div>
 
 
-                <div className={"w-100 float-left"}>
+                <div className={"w-100 float-left rowcontroler"}>
 
                     <div className={"row"}>
                         
-                        <div className={"col mt-4 float-left imageJclass"}>
+                        <div className={"col mt-4  float-left imageJclass"}>
+                            <Link href="/">
+                                <React.Fragment>
+                                    <img src="/image/top2.png"  className={"img-fluid"} />
+                                    <div className={"jackpotimghover"}>
+                                        <div className={"hoverplaynow"}>
+                                            <div className={"playnowjh"}>PLAY NOW</div>
+                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
+                                        </div>
+                                    </div>
+                                </React.Fragment>
+                            </Link>
+                        </div>
+                        <div className={"col mt-4  float-left imageJclass"}>
+                            <Link href="/">
+                                <React.Fragment>
+                                    <img src="/image/top2.png"  className={"img-fluid"} />
+                                    <div className={"jackpotimghover"}>
+                                        <div className={"hoverplaynow"}>
+                                            <div className={"playnowjh"}>PLAY NOW</div>
+                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
+                                        </div>
+                                    </div>
+                                </React.Fragment>
+                            </Link>
+                        </div>
+                        <div className={"col mt-4  float-left imageJclass"}>
+                            <Link href="/">
+                                <React.Fragment>
+                                    <img src="/image/top2.png"  className={"img-fluid"} />
+                                    <div className={"jackpotimghover"}>
+                                        <div className={"hoverplaynow"}>
+                                            <div className={"playnowjh"}>PLAY NOW</div>
+                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
+                                        </div>
+                                    </div>
+                                </React.Fragment>
+                            </Link>
+                        </div>
+                        <div className={"col mt-4  float-left imageJclass"}>
+                            <Link href="/">
+                                <React.Fragment>
+                                    <img src="/image/top2.png"  className={"img-fluid"} />
+                                    <div className={"jackpotimghover"}>
+                                        <div className={"hoverplaynow"}>
+                                            <div className={"playnowjh"}>PLAY NOW</div>
+                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
+                                        </div>
+                                    </div>
+                                </React.Fragment>
+                            </Link>
+                        </div>
+                        <div className={"col mt-4  float-left imageJclass"}>
                             <Link href="/">
                                 <React.Fragment>
                                     <img src="/image/top2.png"  className={"img-fluid"} />
@@ -60,61 +112,6 @@ const Jackpot = () => {
                             </Link>
                         </div>
                         
-                        <div className={"col mt-4 float-left imageJclass"}>
-                            <Link href="/">
-                                <React.Fragment>
-                                    <img src="/image/top2.png"  className={"img-fluid"} />
-                                    <div className={"jackpotimghover"}>
-                                        <div className={"hoverplaynow"}>
-                                            <div className={"playnowjh"}>PLAY NOW</div>
-                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
-                                        </div>
-                                    </div>
-                                </React.Fragment>
-                            </Link>
-                        </div>
-                        
-                        <div className={"col mt-4 float-left imageJclass"}>
-                            <Link href="/">
-                                <React.Fragment>
-                                    <img src="/image/top2.png"  className={"img-fluid"} />
-                                    <div className={"jackpotimghover"}>
-                                        <div className={"hoverplaynow"}>
-                                            <div className={"playnowjh"}>PLAY NOW</div>
-                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
-                                        </div>
-                                    </div>
-                                </React.Fragment>
-                            </Link>
-                        </div>
-                        
-                        <div className={"col mt-4 float-left imageJclass"}>
-                            <Link href="/">
-                                <React.Fragment>
-                                    <img src="/image/top2.png"  className={"img-fluid"} />
-                                    <div className={"jackpotimghover"}>
-                                        <div className={"hoverplaynow"}>
-                                            <div className={"playnowjh"}>PLAY NOW</div>
-                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
-                                        </div>
-                                    </div>
-                                </React.Fragment>
-                            </Link>
-                        </div>
-                        
-                        <div className={"col mt-4 float-left imageJclass"}>
-                            <Link href="/">
-                                <React.Fragment>
-                                    <img src="/image/top2.png"  className={"img-fluid"} />
-                                    <div className={"jackpotimghover"}>
-                                        <div className={"hoverplaynow"}>
-                                            <div className={"playnowjh"}>PLAY NOW</div>
-                                            <div className={"playnowjh1"}>JUST FOR FUN</div>
-                                        </div>
-                                    </div>
-                                </React.Fragment>
-                            </Link>
-                        </div>
 
                     </div>
 

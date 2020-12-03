@@ -47,25 +47,25 @@ const TopGames = () => {
                         </div>
                         <div className={"col-lg-8"}>
                             <div className={"row"}>
-                                <div className={"col-lg-4 lefttopgames12"}>
+                                <div className={"col-lg-4 col-6 float-left lefttopgames12"}>
                                     <img src="/image/top2.png" className={"img-fluid lefttopgames mb-3"} />
                                 </div>
-                                <div className={"col-lg-4 parentTGimg"}>
+                                <div className={"col-lg-4 col-6 float-left parentTGimg"}>
                                     <div className={"lefttopgames12"}></div>
                                     <img src="/image/top2.png" className={"img-fluid lefttopgames mb-3"} />
                                 </div>
-                                <div className={"col-lg-4"}>
+                                <div className={"col-lg-4 col-6 float-left"}>
                                     <img src="/image/top2.png" className={"img-fluid lefttopgames mb-3"} />
                                 </div>
                             </div>
                             <div className={"row"}>
-                                <div className={"col-lg-4"}>
+                                <div className={"col-lg-4 col-6 float-left"}>
                                     <img src="/image/top2.png" className={"img-fluid lefttopgames mb-0"} />
                                 </div>
-                                <div className={"col-lg-4"}>
+                                <div className={"col-lg-4 col-6 float-left"}>
                                     <img src="/image/top2.png" className={"img-fluid lefttopgames mb-0"} />
                                 </div>
-                                <div className={"col-lg-4"}>
+                                <div className={"col-lg-4 col-6 float-left"}>
                                     <img src="/image/top2.png" className={"img-fluid lefttopgames mb-0"} />
                                 </div>
                             </div>

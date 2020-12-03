@@ -6,7 +6,7 @@ const HomeCountdown = () => {
     return ( 
         <div className={"w-100 float-left  py-5 mb-5"}>
             <div className={"container"}>
-                <div className={"col-md-6 float-left"}>
+                <div className={"col-md-6 float-left my-3"}>
                     <div className={"w-100 float-left text-center divimagecoundown1"}>
                         <img src="/image/poker.png" className={"imagecoundown1"} />
                     </div>
@@ -26,7 +26,7 @@ const HomeCountdown = () => {
                     </Timer>
                     </div>
                 </div>
-                <div className={"col-md-6 float-left"}>
+                <div className={"col-md-6 float-left my-3"}>
                     <div className={"w-100 float-left text-center"}>
                         <img src="/image/club.png" className={"imagecoundown2"} />
                     </div>

@@ -31,8 +31,9 @@ ul{
 }
 
 div.maindiv{
-  background-color: #171941;
+  width: 100%;
   float: left;
+  background-color: #171941;
 }
 
 .bg3d{

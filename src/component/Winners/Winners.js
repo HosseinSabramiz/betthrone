@@ -59,7 +59,7 @@ const Winners = () => {
                             <div className={"w-100 float-left d-flex justify-content-between align-items-center pb-3"}>
                                 <div className={"col-lg-7 col-md-7"}>
                                     <div className={"w-100 float-left d-flex justify-content-between align-items-center mb-3"}>
-                                        <div className={"col-lg-3 col-md-3 float-left position-relative"}>
+                                        <div className={"col-lg-3 col-md-3 col-3  float-left position-relative"}>
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                             <img src="/image/Gold.png" className={"medal"} />
                                         </div>
@@ -78,7 +78,7 @@ const Winners = () => {
                                         </div>
                                     </div>
                                     <div className={"w-100 float-left d-flex justify-content-between align-items-center mb-3"}>
-                                        <div className={"col-lg-3 col-md-3 float-left position-relative"}>
+                                        <div className={"col-lg-3 col-md-3 col-3  float-left position-relative"}>
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                             <img src="/image/Silver.png" className={"medal"} />
                                         </div>
@@ -97,7 +97,7 @@ const Winners = () => {
                                         </div>
                                     </div>
                                     <div className={"w-100 float-left d-flex justify-content-between align-items-center mb-3"}>
-                                        <div className={"col-lg-3 col-md-3 float-left position-relative"}>
+                                        <div className={"col-lg-3 col-md-3 col-3  float-left position-relative"}>
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                             <img src="/image/boronz.png" className={"medal"} />
                                         </div>
@@ -116,7 +116,7 @@ const Winners = () => {
                                         </div>
                                     </div>
                                     <div className={"w-100 float-left d-flex justify-content-between align-items-center mb-3"}>
-                                        <div className={"col-lg-3 col-md-3 float-left position-relative"}>
+                                        <div className={"col-lg-3 col-md-3 col-3  float-left position-relative"}>
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
@@ -134,7 +134,7 @@ const Winners = () => {
                                         </div>
                                     </div>
                                     <div className={"w-100 float-left d-flex justify-content-between align-items-center mb-3"}>
-                                        <div className={"col-lg-3 col-md-3 float-left position-relative"}>
+                                        <div className={"col-lg-3 col-md-3 col-3  float-left position-relative"}>
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
@@ -154,7 +154,7 @@ const Winners = () => {
 
                                     
                                 </div>
-                                <div className={"col-lg-5 col-md-5"}>
+                                <div className={"col-lg-5 col-md-5 resrightmiddleW"}>
                                     <div className={"righttopwinner col-lg-12 py-3"}>
 
                                         <ul className={"d-flex justify-content-between pl-0 align-items-center"}>

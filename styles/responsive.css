@@ -1,0 +1,145 @@
+@media screen and (max-width: 991px) {
+
+    /* GLOBAL */
+
+    .bg3d::before {
+        background-image: unset;
+    }
+
+    /* END GLOBAL */
+
+    /* HEADER */
+    .containerHeader{
+        width: 100%;
+    }
+
+    /* END HEADER */
+
+    /* UNDERHEADER */
+    .underheaderredlogo{
+        display: block;
+    }
+
+    .divunderheader {
+        margin-top: 160px;
+    }
+
+    /* END UNDERHEADER */
+
+    /* TOPGAMES */
+
+    .lefttopgames12{
+        width: 240px;
+        float: left;
+    }
+
+    /* END TOPGAMES */
+
+    /* RED AND BLUE LOGO */
+
+    .rescontrollogored{
+        display: none;
+    }
+
+    /* END RED AND BLUE LOGO */
+
+    /* JACKPOT */
+
+    .mainJP{
+        margin-top: 50px;
+    }
+
+    .mainJP .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .jackpotheartshadow {
+        left: 29.4%;
+    }
+
+    .resjPheader{
+        border-top: 1px solid rgba(255, 255, 255, .6);
+        border-bottom: 1px solid rgba(255, 255, 255, .6);
+        padding: 12px 0;
+    }
+
+    li.headerjackpotli > a {
+
+        font-size: 12px;
+    }
+
+    .childulJP{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 0;
+    }
+
+    .imageJclass{
+        max-width: 50%;
+    }
+
+    .rowcontroler .row{
+        display: block ;
+        margin: auto 0;
+    }
+
+    /* END JACKPOT */
+
+
+    /* WINNER */
+
+    .Winners {
+        background-size: 118% 100%;
+        background-position: -9vw;
+    }
+
+    .resrightmiddleW{
+        display: none;
+    }
+
+    .winheaderli {
+        font-size: 13.5px;
+    }
+    .winheaderactive {
+        font-size: 18px;
+    }
+
+    /* END WINNER */
+
+    /* REGISTE ON HOME */
+
+    .passorHR {
+        width: 45%;
+    }
+
+    /* END REGISTE ON HOME */
+
+
+    /* FOOTER */
+
+    .footerbg .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .rightfooter{
+        display: none;
+    }
+
+    .leftfooter {
+        height: 100vw;
+        left: 0;
+        bottom: -5.4%;
+        transform: rotate(-90deg);
+        right: 0;
+    }
+
+    .footersocialmedia {
+        margin-bottom: 30vw;
+    }
+
+    /* END FOOTER */
+
+
+}
