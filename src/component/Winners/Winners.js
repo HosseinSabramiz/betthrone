@@ -64,7 +64,7 @@ const Winners = () => {
                                             <img src="/image/Gold.png" className={"medal"} />
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
-                                            <ul className={"d-flex justify-content-between pl-0 align-items-center"}>
+                                            <ul className={"d-flex justify-content-between pl-0 align-items-center plres"}>
                                                 <li className={"colorwinner"}>
                                                     Reza won
                                                 </li>
@@ -83,7 +83,7 @@ const Winners = () => {
                                             <img src="/image/Silver.png" className={"medal"} />
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
-                                            <ul className={"d-flex justify-content-between pl-0 align-items-center"}>
+                                            <ul className={"d-flex justify-content-between pl-0 align-items-center plres"}>
                                                 <li className={"colorwinner"}>
                                                     Reza won
                                                 </li>
@@ -102,7 +102,7 @@ const Winners = () => {
                                             <img src="/image/boronz.png" className={"medal"} />
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
-                                            <ul className={"d-flex justify-content-between pl-0 align-items-center"}>
+                                            <ul className={"d-flex justify-content-between pl-0 align-items-center plres"}>
                                                 <li className={"colorwinner"}>
                                                     Reza won
                                                 </li>
@@ -120,7 +120,7 @@ const Winners = () => {
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
-                                            <ul className={"d-flex justify-content-between pl-0 align-items-center"}>
+                                            <ul className={"d-flex justify-content-between pl-0 align-items-center plres"}>
                                                 <li className={"colorwinner"}>
                                                     Reza won
                                                 </li>
@@ -138,7 +138,7 @@ const Winners = () => {
                                             <img src="/image/top2.png" className={"img-fluid winnerimg"}/>
                                         </div>
                                         <div className={"col-lg-9 col-md-9 float-left"}>
-                                            <ul className={"d-flex justify-content-between pl-0 align-items-center"}>
+                                            <ul className={"d-flex justify-content-between pl-0 align-items-center plres"}>
                                                 <li className={"colorwinner"}>
                                                     Reza won
                                                 </li>

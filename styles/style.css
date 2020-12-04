@@ -7,6 +7,9 @@
 
 /* EDIT BOOTSTRAP */
 
+.resshow{
+    display: none !important
+}
 
 
 
@@ -137,6 +140,27 @@ li.activetopG > a{
     top: -5px;
     position: relative;
     border-bottom: 1px solid #fff;
+}
+
+.bigTGimage{
+    overflow: hidden;
+    position: relative;
+}
+
+.bigTGimage::before{
+    background-color: rgba(255, 255, 255, 0.25);
+    bottom: -10px;
+    content: '';
+    height: 200px;
+    left: -40px;
+    position: absolute;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(15deg);
+    width: 110px;
+    }
+
+.resTGbottommain{
+    display: none;
 }
 
 /* END TOP GAMES */

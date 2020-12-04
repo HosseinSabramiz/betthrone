@@ -80,7 +80,7 @@
 }
 
 .resmenu{
-    display: none;
+    display: none !important;
     cursor: pointer;
     margin-left: 12%;
 }
@@ -96,7 +96,12 @@
     font-family: 'Montserrat-Medium';
     text-decoration: none;
     cursor: pointer;
-    display: none;
+    display: none !important;
+}
+
+.headerul li.ressearchheaderli {
+
+    display: none !important;
 }
 
 .headerlogo img{
@@ -139,8 +144,8 @@
         display: none;
     }
     
-    .headerul li.ressearchheaderli >div> a{
-        display: block;
+    .headerul li.ressearchheaderli{
+        display: flex !important;
     }
 
         
@@ -150,7 +155,7 @@
     }
     
     .resmenu{
-        display: block;
+        display: flex !important;
     }
 
     .scrollDown{

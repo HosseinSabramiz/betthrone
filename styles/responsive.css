@@ -6,6 +6,14 @@
         background-image: unset;
     }
 
+    .resshow{
+        display: block !important;
+    }
+
+    .hiddenres{
+        display: none;
+    }
+
     /* END GLOBAL */
 
     /* HEADER */
@@ -21,16 +29,70 @@
     }
 
     .divunderheader {
-        margin-top: 160px;
+        padding: 0;
+        margin-top: 130px;
     }
 
     /* END UNDERHEADER */
 
     /* TOPGAMES */
 
+    .hiddenTG{
+        display: none;
+    }
+
     .lefttopgames12{
         width: 240px;
         float: left;
+    }
+
+    .rescontrolTG{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .headerTopGame {
+        flex-wrap: wrap;
+        padding-right: 0;
+        padding-left: 0;
+        
+    }
+
+    .headerTopGame > div:first-child{
+        display: flex;
+        justify-content: center;
+    }
+
+    .topgamestitle {
+        border-right: 3px solid;
+        width: auto;
+        float: left;
+        padding-right: 1rem;
+    }
+
+    .resulTG{
+        border-bottom: 1px solid rgba(255, 255, 255, .6);
+        border-top: 1px solid rgba(255, 255, 255, .6);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 1.5rem;
+
+    }
+
+    .resulTG ul{
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    li.headerTopGames > a {
+        font-size: 12.5px;
+    }
+        
+    .resTGbottommain{
+        display: block;
+        margin-top: 20px;
     }
 
     /* END TOPGAMES */
@@ -99,10 +161,22 @@
     }
 
     .winheaderli {
-        font-size: 13.5px;
+        font-size: 10.5px;
     }
     .winheaderactive {
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    .plres{
+        padding-left: 0;
+    }
+
+    .colorwinner {
+        font-size: 10.7px;
+    }
+
+    .pricewinner1 {
+        font-size: 1.5em;
     }
 
     /* END WINNER */
