@@ -146,7 +146,7 @@ li.activetopG > a{
     overflow: hidden;
     position: relative;
 }
-
+/*
 .bigTGimage::before{
     background-color: rgba(255, 255, 255, 0.25);
     bottom: -10px;
@@ -157,7 +157,7 @@ li.activetopG > a{
     transform: rotate(30deg);
     -webkit-transform: rotate(15deg);
     width: 110px;
-    }
+    }*/
 
 .resTGbottommain{
     display: none;
