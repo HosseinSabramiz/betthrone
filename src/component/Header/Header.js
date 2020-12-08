@@ -14,7 +14,9 @@ export default () =>{
     return (
         <div id={style.bgheader}>
             <div className={style.imageback}>
-                <img src="/image/MaskGroup1.png" />
+                <div className={style.resbgimagehelp}>
+                    <img src="/image/MaskGroup1.png" className={style.mainheaederimage} />
+                </div>
                 <div className={style.bottomdice}>
                     <img src={"/image/Dices.png"} />
                 </div>

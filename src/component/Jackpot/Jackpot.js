@@ -7,8 +7,8 @@ const Jackpot = () => {
             <div className={"container"}>
                 <div className={"w-100 d-flex justify-item-cener headerJackpot"}>
                     <div className={"w-100 text-center position-relative  float-left"}>
-                        <img src="/image/heart.png" />
-                        <img src="/image/heartBlur.png" className={"jackpotheartshadow"} />
+                        <img src="/image/heart.png" className={"jackpotheartshadow"}  />
+                        {/* <img src="/image/heartBlur.png" className={"jackpotheartshadow"} /> */}
 
                         {/* <div className={"jackpotheartshadow"}></div> */}
                         <div className={"w-100 text-center jackpottitle"}>JACKPOT</div>

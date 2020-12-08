@@ -129,6 +129,17 @@
     filter: blur(13px);
 }
 
+.topgamesHblurress{
+    width: 13px;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    display: none;
+    right: -0.4rem;
+    filter: blur(13px);
+}
+
 li.headerTopGames > a{
     color: #fff;
     font-size: 14px;
@@ -142,25 +153,49 @@ li.activetopG > a{
     border-bottom: 1px solid #fff;
 }
 
+li.activetopG > a::before{
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    filter: blur(3px);
+}
+
 .bigTGimage{
     overflow: hidden;
     position: relative;
 }
-/*
+
 .bigTGimage::before{
     background-color: rgba(255, 255, 255, 0.25);
-    bottom: -10px;
+    bottom: -100px;
     content: '';
-    height: 200px;
-    left: -40px;
+    height: 200%;
+    left: 390px;
+    animation: imageLight 2s infinite;
     position: absolute;
     transform: rotate(30deg);
-    -webkit-transform: rotate(15deg);
-    width: 110px;
-    }*/
+    -webkit-transform: rotate(-35deg);
+    transition: all 1s ease-in-out ;
+    width: 40px;
+    display: none;
+}
 
 .resTGbottommain{
     display: none;
+}
+
+
+@keyframes imageLight{
+    0%{
+        left: 390px;
+    }
+    100%{
+        left: -200px;
+    }
 }
 
 /* END TOP GAMES */
@@ -171,8 +206,7 @@ li.activetopG > a{
 }
 
 .jackpotheartshadow{
-    position: absolute;
-    left: 41.3%;
+    filter: drop-shadow(0 0 10px #fff);
 }
 
 div.jackpottitle{
@@ -205,12 +239,24 @@ li.activetJack > a{
     position: relative;
     border-bottom: 1px solid #fff;
 }
+
+li.activetJack > a::before{
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    filter: blur(3px);
+}
 .allgamesjacjpot{
     background-image: url("../public/image/btnAllGames.png");
     background-size: 100%;
     color: #fff;
-    box-shadow: 0 0 10px 0px #700ece;
+    filter: drop-shadow(0 0 10px #700ece);
     border-radius: 16px;
+    font-family: 'Rajdhani-Bold';
 }
 
 .allgamesjacjpot:hover{
@@ -318,6 +364,10 @@ li.activetJack > a{
     height: 20px;
 }
 
+.rowcontroler{
+    padding: 0 0 0 15px;
+}
+
 /* END WINNERS */
 
 /* REGISTER IN HOME */
@@ -364,6 +414,7 @@ justify-content: center;
 }
 
 .homeinput{
+    font-family: 'Montserrat-Regular';
     background-color: transparent;
     padding:30px 20px;
 }
@@ -376,6 +427,7 @@ justify-content: center;
     background-color: #8300FF;
     box-shadow: 0 0 30px 1px #8300FF;
     color: #fff;
+    font-family: 'Montserrat-Bold';
     margin:auto;
 }
 

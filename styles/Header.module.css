@@ -161,7 +161,8 @@
     .scrollDown{
         left: 42.9%;
         transform: rotate(90deg);
-        bottom: -22%;
+        /* bottom: -22%; */
+        bottom: -10%;
     }
 
     .bottomdice img {
@@ -170,6 +171,21 @@
         right: 4vw;
     }
     
+    .mainheaederimage{
+        /* height: 90vh;
+        margin-left: -100vw; */
+        width: auto !important;
+    }
+
+
+    .resbgimagehelp{
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
 
     /* END HEADER */
 }

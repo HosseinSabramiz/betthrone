@@ -11,6 +11,7 @@ const TopGames = () => {
                         <div className={"topgamestitle pl-3"}>
                             TOP GAMES
                             <div className={"topgamesHblur"}></div>
+                            <div className={"topgamesHblurress"}></div>
                         </div>
                     </div>
                     <div className={"col-lg-6 float-right px-0 resulTG"}>
@@ -73,11 +74,14 @@ const TopGames = () => {
                         </div>
                         <div className={"col-lg-12 resTGbottommain"}>
                         <Swiper 
-                            slidesPerView={2}
+                            slidesPerView={1.5}
                             init={true}
                             pagination={{ clickable: true }}
                             onSwiper={(swiper) => console.log(swiper)}
                             onSlideChange={() => console.log('slide change')}
+                            centeredSlides={true}
+                            centerInsufficientSlides={true}
+                            centeredSlidesBounds={true}
                         >
                             <SwiperSlide>
 
